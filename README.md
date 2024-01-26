@@ -17,3 +17,6 @@ Dockerizing a React App using Vite
 ## Create the docker image and container
     docker build -t giesbrecht_dennis_coding_assignment11 .
     docker run -p 7775:7775 giesbrecht_dennis_coding_assignment11 
+
+### Access the Web Application
+    Input http://localhost:7775 in your browser
